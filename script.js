@@ -46,13 +46,39 @@
 // console.log(product)
 
 
-let score = 20;
-console.log(score)
+// let score = 20;
+// console.log(score)
 
-let update  = null
-console.log(update)
-console.log(update, update+20, `My score is ${update}`)
+// let update = null
+// console.log(update)
+// console.log(update, update + 20, `My score is ${update}`)
 
-let year
-console.log(year)
-console.log(year, year + 20, `My year is ${year}`)
+// let year
+// console.log(year)
+// console.log(year, year + 20, `My year is ${year}`)
+
+// let value = [true, false, "true", "false"]
+// console.log(value)
+
+// let students = ["alex", "jhon", "Dev", "tanay"]
+
+
+// console.log(10 == '10')
+// console.log(10 == '99')
+// console.log(10 != '99')
+// console.log(10 != 10)
+
+// let a = 10;
+// let b = '10'
+// let c = 10
+
+// console.log(a === b)
+
+// console.log(a === c)
+
+const students = ["subh","alexa","hatori","kursi"]
+console.log("hello")
+
+for(let student of students){
+    console.log(student)
+}
