@@ -128,3 +128,28 @@ function fullName(firstName="AEC", lastName="XYZ"){
 
 fullName("Jhon", "Alix")
 fullName();
+
+let welcomeArrow = (name) => {
+    console.log("Welcome to", name)
+}
+
+welcomeArrow("Alixa")
+
+
+let product = ["bread", "butter", "jam","bottle"]
+product.forEach(product => console.log(product))
+
+let students = ["A","B","C", "D"]
+students.forEach((students,index)=> {
+    console.log(students ,index)
+})
+
+
+let userCallback = (user,index) => {
+    console.log(user ,index)
+
+}
+
+let users = ["Q","R","S", "T"]
+
+users.forEach(userCallback)
