@@ -76,9 +76,55 @@
 
 // console.log(a === c)
 
-const students = ["subh","alexa","hatori","kursi"]
-console.log("hello")
+// const students = ["subh", "alexa", "hatori", "kursi"]
+// console.log("hello")
 
-for(let student of students){
-    console.log(student)
+// for (let student of students) {
+//     console.log(student)
+// }
+
+// console.log("\n")
+// for (let index in students) {
+//     console.log(students[index])
+// }
+
+// const student = {
+//     username: "Jhons",
+//     age: 30
+// }
+
+// for (let key in student) {
+//     console.log(students[key])
+// }
+
+// const username = "Alix"
+
+// for (let character of username) {
+//     console.log(character)
+// }
+
+// let ratings = [2,5,0,8,9,0,0,3]
+
+// function addition(numOne,numTwo){
+//     return numOne + numTwo
+// }
+// function subtraction(numOne,numTwo){
+//     return numOne - numTwo
+// }
+
+// console.log(addition(3,7))
+// console.log(addition(9,11))
+// console.log(subtraction(10,7))
+
+// let intro = function(){
+//     console.log("Welcome to AEC")
+// }
+
+// intro();
+
+function fullName(firstName="AEC", lastName="XYZ"){
+    console.log(`Welcome to ${firstName} ${lastName}`)
 }
+
+fullName("Jhon", "Alix")
+fullName();
