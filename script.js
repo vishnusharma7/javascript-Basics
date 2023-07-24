@@ -155,14 +155,39 @@
 // users.forEach(userCallback)
 
 
-const movies = [
-    { name: "Coffee Day", rating: 10 },
-    { name: "The lost coder", rating: 8 },
-    { name: "Typical bug", rating: 4 }
-]
+// const movies = [
+//     { name: "Fifty shades of grey", rating: 10 },
+//     { name: "The lost coder", rating: 8 },
+//     { name: "Typical bug", rating: 4 }
+// ]
 
-const filteredMovies = movies.filter((movie) => {
-return movie.rating > 8
+// const filteredMovies = movies.filter((movie) => {
+//     return movie.rating > 8
+// })
+
+// console.log(filteredMovies);
+
+// const a = 
+//     [ 1,  2,  4,  5,  7,  8 ]
+
+
+// const filtereda = a.filter((ar) => {
+//     return ar % 2!= 0
+// })
+
+// console.log(filtereda);
+
+// const numbers = [10,20,30,40,50]
+// const mapNumbers = numbers.map((n) =>{
+// return n+5;
+// })
+
+// console.log(mapNumbers);
+
+
+const numbers = [5, 20, 75, 80, 15, 30]
+
+const findNumbers = numbers.find((num) => {
+    return num > 70
 })
-
-console.log(filteredMovies);
+console.log(findNumbers);
