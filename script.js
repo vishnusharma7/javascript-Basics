@@ -122,34 +122,47 @@
 
 // intro();
 
-function fullName(firstName="AEC", lastName="XYZ"){
-    console.log(`Welcome to ${firstName} ${lastName}`)
-}
+// function fullName(firstName="AEC", lastName="XYZ"){
+//     console.log(`Welcome to ${firstName} ${lastName}`)
+// }
 
-fullName("Jhon", "Alix")
-fullName();
+// fullName("Jhon", "Alix")
+// fullName();
 
-let welcomeArrow = (name) => {
-    console.log("Welcome to", name)
-}
+// let welcomeArrow = (name) => {
+//     console.log("Welcome to", name)
+// }
 
-welcomeArrow("Alixa")
+// welcomeArrow("Alixa")
 
 
-let product = ["bread", "butter", "jam","bottle"]
-product.forEach(product => console.log(product))
+// let product = ["bread", "butter", "jam","bottle"]
+// product.forEach(product => console.log(product))
 
-let students = ["A","B","C", "D"]
-students.forEach((students,index)=> {
-    console.log(students ,index)
+// let students = ["A","B","C", "D"]
+// students.forEach((students,index)=> {
+//     console.log(students ,index)
+// })
+
+
+// let userCallback = (user,index) => {
+//     console.log(user ,index)
+
+// }
+
+// let users = ["Q","R","S", "T"]
+
+// users.forEach(userCallback)
+
+
+const movies = [
+    { name: "Coffee Day", rating: 10 },
+    { name: "The lost coder", rating: 8 },
+    { name: "Typical bug", rating: 4 }
+]
+
+const filteredMovies = movies.filter((movie) => {
+return movie.rating > 8
 })
 
-
-let userCallback = (user,index) => {
-    console.log(user ,index)
-
-}
-
-let users = ["Q","R","S", "T"]
-
-users.forEach(userCallback)
+console.log(filteredMovies);
